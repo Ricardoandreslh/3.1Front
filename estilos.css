@@ -61,24 +61,137 @@ section h2 {
     margin-top: 0;
 }
   
-  form {
+#banner {
+  background-image: url("imagen-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  padding: 100px;
+  text-align: center;
+}
+#banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+#banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#banner button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#promociones {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+#promociones h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#promociones ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#promociones li {
+  margin-left: 30px;
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+#promociones li img {
+  width: 100%;
+  border-radius: 5px;
+}
+#promociones li h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+#promociones li p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#promociones button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#testimonios {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+#testimonios h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#testimonios blockquote {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#testimonios blockquote p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#testimonios blockquote footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
+#testimonios blockquote footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#testimonios button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+form {
     display: flex;
     flex-direction: column;
   }
   
-  form label {
+form label {
     margin-top: 20px;
   }
   
-  form input[type="text"],
-  form input[type="email"] {
+form input[type="text"],
+form input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 20px;
   }
   
-  form textarea {
+form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
