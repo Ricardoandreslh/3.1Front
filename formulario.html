@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="description" content="Actividad 3.1 Front-End">
+	<meta name="author" content="Ricardo Loaiza">
+	<link rel="shortcut icon" type="image/x-icon" href="/images/icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Página web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Título de la página</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Formulario</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a nuestra página</h2>
+            <p>Este es un ejemplo de página web sencilla</p>
+        </section>
+        <section id="formulario">
+            <h2>Complete el siguiente formulario</h2>
+            <form action="envio.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo"><br><br>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="acerca-de">
+            <h2>Acerca de nosotros</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque at harum exercitationem minus veritatis, repellendus blanditiis sint nulla! Officiis assumenda voluptas enim molestias adipisci commodi eos neque officia ratione ad?</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
