@@ -6,7 +6,7 @@ body {
 }
   
 header {
-   background-color: #333;
+   background-color: #F29544;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -187,8 +187,8 @@ form label {
 form input[type="submit"]{
   padding: 10px;
   border: 1px solid #a1a1a1;
-  background-color: #ccc;
-  color: black;
+  background-color: #007bff;
+  color: white;
   border-radius: 5px;
   margin-bottom: 20px;
   }
@@ -216,7 +216,7 @@ form textarea {
   }
   
   footer {
-    background-color: #333;
+    background-color: #F29544;
     color: #fff;
     padding: 20px;
     text-align: center;
